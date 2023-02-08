@@ -56,7 +56,7 @@ h1 a:hover {
 }
 .main-visual {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/austin-distel-rxpThOwuVgE-unsplash@2x.png) no-repeat 0 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(austin-distel-rxpThOwuVgE-unsplash@2x.png) no-repeat 0 0;
   background-size: contain;
   padding-top: 43.64%;
   height: 0;
