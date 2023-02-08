@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/*基本スタイルここから*/
+body {
+  font: 15px "Hiragino Kaku Gothic Pro";
+  color: #707070;
+}
+a {
+  text-decoration: none;
+  color: #707070;
+}
+li {
+  list-style: none;
+}
+/*基本スタイルここまで*/
+
+/*ヘッダーここから*/
+h1 {
+  font-size: 35px;
+  border: 1px solid #707070;
+  width: 370px;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 a:hover {
+  opacity: 0.8;
+}
+.header-wrap {
+  width: 1340px;
+  margin: 0 auto;
+  display: flex;
+  padding: 32px 0 45px 0;
+}
+.pc {
+  margin: 26px 0 0 523px;
+}
+.pc ul {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.nav-drawer {
+  display: none;
+}
+.nav-unshown{
+  display: none;
+}
+/*ヘッダーここまで*/
+
+/*ビジュアルここから*/
+.main-visual img {
+  width: 100%;
+}
+.main-visual {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../images/austin-distel-rxpThOwuVgE-unsplash@2x.png) no-repeat 0 0;
+  background-size: contain;
+  padding-top: 43.64%;
+  height: 0;
+  color: #fff;
+}
+.visual-text {
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  top: 26%;
+  left: 45%;
+}
+.visual-text h2 {
+  font-size: 67px;
+}
+.visual-text p {
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  line-height: 1.8;
+}
+.sp-text {
+  display: none;
+}
+/*ビジュアルここまで*/
+
+/*アイテムここから*/
+.article-wrap {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.article-wrap img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.item1,.item2,.item3 {
+  width: 375px;
+}
+/*アイテムここまで*/
+
+/*デベロップここから*/
+.develop-wrap-pc {
+  padding-top: 200px;
+}
+.develop01,.develop02 {
+  display: flex;
+  width: 1330px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.develop02 {
+  margin-top: 150px;
+}
+.develop-text {
+  padding-top: 10px;
+}
+.heading {
+  width: 115px;
+  font-size: 26px;
+  margin: 0 auto;
+  color: #3b3b3b;
+}
+.textarea {
+  width: 675px;
+  font-size: 14px;
+  line-height: 2.0;
+  margin-top: 40px;
+}
+.develop-sp-wrap {
+  display: none;
+}
+/*デベロップここまで*/
+
+/*ニュースここから*/
+.news-wrap {
+  width: 875px;
+  margin: 200px auto 170px auto;
+}
+.news-heading {
+  width: 52px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+.list-wrap {
+  margin-top: 49px;
+}
+.list-wrap ul li{
+  display: flex;
+  border-bottom: 1px solid #707070;
+  padding: 20px 0;
+}
+time {
+  margin-right: 60px;
+}
+/*ニュースここまで*/
+
+/*バナーここから*/
+.banner-wrap {
+  width: 1330px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 200px auto;
+}
+.banner-wrap a {
+  display: inline-block;
+	padding: 0.3em;
+	transition: .3s;
+	transform: scale(1);
+}
+.banner-wrap a:hover {
+  transform: scale(1.05);
+}
+.banner1,.banner2,.banner3 {
+  font-size: 35px;
+  width: 400px;
+  height: 122px;
+  color: #3b3b3b;
+  border: 1px solid #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*バナーここまで*/
+
+/*フッターここから*/
+footer {
+  background-color: #EBEBEB;
+}
+.footer-wrap {
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.footer-logo {
+  
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 33px;
+  color: #3b3b3b;
+}
+.address {
+  margin: 16px 0;
+}
+.sp-nav {
+  display: none;
+}
+.footer-nav ul {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.footer-nav a:hover {
+  color: #000;
+}
+.copy {
+  padding: 33px 0;
+  background-color: #6A6A6A;
+  color: #fff;
+  text-align: center;
+}
+/*フッターここまで*/
